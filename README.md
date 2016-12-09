@@ -1,1 +1,1 @@
-Subordinate charm for the Prometheus node exporter.
+Subordinate charm for the Prometheus Postgres exporter.

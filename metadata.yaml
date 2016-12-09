@@ -1,0 +1,17 @@
+name: prometheus-postgres-exporter
+summary: Prometheus HAProxy Exporter
+maintainer: Canonical Landscape Team <landscape-crew@lists.canonical.com>
+description: |
+    Prometheus HAProxy Exporter
+subordinate: true
+series:
+  - xenial
+tags:
+  - prometheus
+provides:
+  prometheus-client:
+    interface: http
+requires:
+  container:
+    interface: juju-info
+    scope: container
